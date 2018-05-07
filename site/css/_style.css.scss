@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(19, 12, 22);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.homepage {
+    grid-row: span 1;
+    grid-column: 6/8;
+}
+
+.homepage p {
+    line-height: 0em;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245,245,245);
+}
+body {
+    background-color: white;
+}
+
+// -----------------------Mens Dropdown css-----------------------
+
+.dropbtn {
+    background-color: rgb(19, 12, 22);
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    grid-column: span 1;
+    grid-row: auto;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(19, 12, 22);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #f1f1f1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+}
+
+.show {display:block;}
+
+// -----------------------Hemsida-----------------------
+
+.box {
+    height: 80vw;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    display: grid;
+    background-color: rgb(48,48,48);
+
+}
