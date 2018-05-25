@@ -8,8 +8,9 @@ body {
   height: 80px;
   width: 100%;
   background-color: #130c16;
-  margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  position: fixed;
+  margin-top: -90px; }
 
 .homepage {
   grid-row: span 1;
@@ -71,4 +72,27 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   display: grid;
-  background-color: #303030; }
+  background-color: #303030;
+  margin-top: 90px; }
+
+.dropbtn_side {
+  display: hidden; }
+
+.dropdown {
+  display: hidden; }
+
+.pic1 {
+  grid-row: 2/7;
+  grid-column: 2/12;
+  background-image: url(https://www.gannett-cdn.com/-mm-/4252e7af1a3888197136b717f5f93523f21f8eb2/r=x1683&c=3200x1680/local/-/media/USATODAY/onpolitics/2012/10/03/bigbird-16_9.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 100%;
+    padding: 0vw; }
+
+  .dropdown-content {
+    float: none;
+    width: 100%; } }
