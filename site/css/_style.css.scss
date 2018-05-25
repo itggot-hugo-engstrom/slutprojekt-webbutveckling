@@ -1,6 +1,4 @@
-body {
-    margin: 0px;
-}
+
 
 .header {
     grid-template-rows: 1fr;
@@ -72,9 +70,6 @@ body {
     background-color: black;
 }
 
-.sidenav {
-    
-}
 
 .show {display:block;}
 
@@ -115,7 +110,13 @@ body {
 
     .box {
         width: 100%;
+        height: 200vw;
         padding: 0vw;
+    }
+
+    .header {
+        padding: 0vw;
+        margin-left: -8px;
     }
 
     .dropdown-content {
@@ -123,5 +124,7 @@ body {
         width: 100%;
     }
 
-    
+    .homepage p {
+        display: none;
+    }
 }
